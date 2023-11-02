@@ -1,10 +1,10 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with
 [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Accessibility Improvements for DeepWhale AI
+## Accessibility Improvements for UpLift
 
-This repository contains accessibility improvements made to DeepWhale AI's
-website as part of my application for the Frontend engineer position.
+This repository contains accessibility improvements made to UpLift's website as
+part of my application for the Frontend engineer position.
 
 ### Navigation: "Skip to Content" Option
 
@@ -13,16 +13,22 @@ website as part of my application for the Frontend engineer position.
 - This link allows users to bypass the navigation menu and jump directly to the
   main content of the page.
 
-### Keyboard Access: "Sign Up" Button and Login Page
+### Keyboard Access: Improved the "For Providers" Option on the Nav
 
-- Enhanced keyboard accessibility for the "Sign Up" button in the navigation bar
-  and the login page.
-- Users can now easily navigate to and interact with these elements using
-  keyboard controls.
+- Enhanced keyboard accessibility for the "For Providers" option on the
+  navigation bar.
+- Users can now easily navigate in and out of the dropdown using the up and down
+  arrow keys.
 - The changes make the website more inclusive for users who rely on keyboard
   navigation.
+
+### FAQs: Rewrote the FAQs to be more accessible
+
+- Rewrote the FAQs to be more accessible for screen reader users.
+- Users can now tab through the FAQs one by one and press enter or space bar to
+  expand the answer.
 
 ### Live Demo
 
 - A live demo of the website with the accessibility improvements can be found
-  [here](https://deepwhale-ai.vercel.app/).
+  [here]().

@@ -1,8 +1,12 @@
 import type {Metadata} from 'next';
-import {Space_Grotesk} from 'next/font/google';
+import {Roboto} from 'next/font/google';
 import './globals.css';
 
-const spaceGrotesk = Space_Grotesk({subsets: ['latin']});
+const roboto = Roboto({
+  display: 'swap',
+  weight: '400',
+  subsets: ['latin-ext', 'cyrillic-ext'],
+});
 
 const metadata: Metadata = {
   title: 'Create Next App',
@@ -12,7 +16,7 @@ const metadata: Metadata = {
 export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
     <html lang="en">
-      <body className={spaceGrotesk.className}>{children}</body>
+      <body className={roboto.className}>{children}</body>
     </html>
   );
 }

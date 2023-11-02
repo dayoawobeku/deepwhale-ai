@@ -18,10 +18,10 @@ export default function Dropdown({
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
-        <Menu.Button className="inline-flex w-full justify-center items-center gap-x-1.5 text-lg font-bold">
+        <Menu.Button className="inline-flex w-full justify-center items-center gap-x-1.5">
           <span>{item}</span>
           <ChevronDownIcon
-            className="-mr-1 h-5 w-5 text-white"
+            className="-mr-1 h-5 w-5 text-gray-700"
             aria-hidden="true"
           />
         </Menu.Button>
