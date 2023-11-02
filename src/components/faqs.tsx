@@ -32,8 +32,8 @@ export default function Faqs() {
             hidden={!expanded.includes(1)}
             className="pt-4 px-4"
           >
-            We’re rethinking mental health to work for everyone. We believe it
-            should be easy for everyone to access care and experience real
+            We&apos;re rethinking mental health to work for everyone. We believe
+            it should be easy for everyone to access care and experience real
             growth.
             <br />
             <br />
@@ -49,7 +49,7 @@ export default function Faqs() {
             onClick={() => toggleExpand(2)}
             className="text-xl font-semibold py-4 w-full text-start"
           >
-            I’m new to therapy, how do I get started?
+            I&apos;m new to therapy, how do I get started?
           </button>
           <p
             id="faq-item-2"
