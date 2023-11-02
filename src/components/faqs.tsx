@@ -59,7 +59,7 @@ export default function Faqs() {
             It only takes 5 minutes! Answer a few questions and then we will
             show you a list of recommended providers based on your goals,
             schedule, and insurance. You can do it all online yourself or call
-            888-380-2028, and we'll guide you through the process.
+            888-380-2028, and we&apos;ll guide you through the process.
           </p>
         </li>
         {/* More FAQ items here */}
