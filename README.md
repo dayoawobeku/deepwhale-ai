@@ -31,4 +31,4 @@ part of my application for the Frontend engineer position.
 ### Live Demo
 
 - A live demo of the website with the accessibility improvements can be found
-  [here]().
+  [here](https://uplift-website.vercel.app/).
